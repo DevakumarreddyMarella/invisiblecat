@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invisible cat</title>
+    <link rel="stylesheet" href="cat.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="darkbackground text-center">
+        <div>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png" class="bulb-image" id="bulbimage">
+        </div>
+        <div>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png" class="cat-image" id="catimage">
+         </div>
+         <div class="switch-box">
+            <h1 class="switch-status"id="switchstatus">Switch on</h1>
+            <div class="switch">
+                <button class="off-s" id="off" onclick="switchoff()">OFF</button>
+                <button   class="on-s" id="on" onclick="switchon()">ON</button>    
+                
+
+            </div>
+
+         </div>
+
+    </div>
+    <script src="cat.js"></script>
+    
+</body>
+</html>
